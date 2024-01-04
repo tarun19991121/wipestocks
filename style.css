@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.container-fluid {
+    padding: 3% 7%;
+    text-align: left;
+}
+
+.img-div {
+    text-align: center;
+}
+
+.img-1 {
+    height: 100%;
+    width: 80%;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 10%;
+}
+
+.feature-box {
+    padding: 4%;
+}
+
+.icons {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+.feature-heading {
+    font-size: 2rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-family: 'Montserrat-light';
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+.stomck {
+    width: 10%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+.price-text-upper {
+    font-size: 3rem;
+    line-height: 2.7rem;
+}
+
+/* CTA Section */
+
+#cta {
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+} 
+.download-button1 {
+    margin: 5% 1%;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+}
+.social-icons {
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+}
